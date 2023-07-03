@@ -21,4 +21,15 @@ public class PlayingCat {
             }
         }
     }
+
+    // Ternary Operator
+    /* 
+    public static boolean isCatPlaying(boolean summer, int temperature) {
+        if(summer == true) {
+            return temperature >= 25 && temperature <= 45 ? true : false;
+        } else {
+            return temperature >= 25 && temperature <= 35 ? true : false;
+        }
+    }
+    */
 }
