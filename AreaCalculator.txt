@@ -28,6 +28,7 @@ TIP: The formula for calculating the area of a rectangle is x * y.
 
 TIP: The formula for calculating a circle area is radius * radius * PI.
 
+
 TIP: For PI use a constant from Math class e.g. Math.PI
 
 NOTE: All methods need to be defined as public static like we have been doing so far in the course.
