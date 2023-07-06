@@ -9,6 +9,15 @@ public class EnhancedSwitchChallenge {
         printDayOfWeek(5);
         printDayOfWeek(6);
         printDayOfWeek(7);
+
+        printWeekDay(0);
+        printWeekDay(1);
+        printWeekDay(2);
+        printWeekDay(3);
+        printWeekDay(4);
+        printWeekDay(5);
+        printWeekDay(6);
+        printWeekDay(7);
     }
 
     public static void printDayOfWeek(int day) {
@@ -24,6 +33,29 @@ public class EnhancedSwitchChallenge {
              default -> "Invalid Day";
         };
 
-        System.out.println(dayOfTheWeek);
+        System.out.println(day + " is " + dayOfTheWeek);
+    }
+
+    public static void printWeekDay(int day) {
+        String dayOfTheWeek;
+        if(day == 0) {
+            dayOfTheWeek = "Sunday";
+        } else if(day == 1) {
+            dayOfTheWeek = "Monday";
+        } else  if(day == 2) {
+            dayOfTheWeek = "Tuesday";
+        } else if(day == 3) {
+            dayOfTheWeek = "Wednesday";
+        } else if(day == 4) {
+            dayOfTheWeek = "Thursday";
+        } else if(day == 5) {
+            dayOfTheWeek = "Friday";
+        } else if(day == 6) {
+            dayOfTheWeek = "Saturday";
+        } else {
+            dayOfTheWeek = "Invalid Day";
+        }
+
+        System.out.println(day + " is " + dayOfTheWeek);
     }
 }
